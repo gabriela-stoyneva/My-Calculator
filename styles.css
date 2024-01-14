@@ -16,11 +16,11 @@ body {
 }
 
 .container {
-    
+    font-size: 1.8em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(179, 223, 245, 0.614);
+    background-color: rgba(121, 152, 167, 0.614);
     border-radius: 0.5em;
     border: 3px solid rgba(201, 217, 233, 0.878);
 
@@ -30,7 +30,6 @@ table {
     width: 25em;
     height: 20em;
     text-align: center;
-    font-size: 1.5em;
     border: 5px solid rgb(185, 210, 235);
     border-radius: 0.5em;
     background-color: rgb(203, 229, 245);
@@ -38,19 +37,22 @@ table {
     
 }
 h1 {
-    padding: 1em;
-    font-size: 2.4em;
-    font-weight: normal;
-    
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: normal;   
 }
 
  td, tr {
-    width: 2em;
-    height: 2em;
-    background-color: rgba(224, 252, 252, 0.625);
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgba(158, 174, 174, 0.625);
     border: 3px solid rgba(191, 214, 237, 0.445);
     border-radius: 0.5em;   
 }
+
 td:hover {
     background-color: rgb(218, 223, 217);
+}
+button {
+    display: none;
 }
