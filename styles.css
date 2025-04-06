@@ -5,8 +5,8 @@
 }
 
 html {
-    font: 16px/ 1.5 Verdana, serif;
-    color: rgb(48, 49, 51);
+    font: 14px/ 1.5 Verdana, serif;
+    color: rgb(24, 24, 24);
 }
 body {
     margin-top: 4em;
@@ -20,9 +20,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(121, 152, 167, 0.614);
+    background-color: rgba(91, 98, 102, 0.918);
     border-radius: 0.5em;
     border: 3px solid rgba(201, 217, 233, 0.878);
+    color: beige;
 
 }
 table {
