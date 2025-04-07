@@ -33,7 +33,7 @@ table {
     text-align: center;
     border: 5px solid rgb(185, 210, 235);
     border-radius: 0.5em;
-    background-color: rgb(203, 229, 245);
+    background-color: rgba(89, 177, 232, 0.628);
     border: 2px solid white;
     
 }
@@ -46,13 +46,13 @@ h1 {
  td, tr {
     width: 1.5em;
     height: 1.5em;
-    background-color: rgba(158, 174, 174, 0.625);
+    background-color: rgba(86, 106, 135, 0.498);
     border: 3px solid rgba(191, 214, 237, 0.445);
     border-radius: 0.5em;   
 }
 
 td:hover {
-    background-color: rgb(218, 223, 217);
+    background-color: rgba(218, 223, 217, 0.507);
 }
 button {
     display: none;
