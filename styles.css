@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(91, 98, 102, 0.918);
+    background-color: #347679;
     border-radius: 0.5em;
     border: 3px solid rgba(201, 217, 233, 0.878);
     color: beige;
@@ -50,7 +50,7 @@ h1 {
     height: 1.5em;
     background-color: rgba(86, 106, 135, 0.498);
     border: 3px solid rgba(191, 214, 237, 0.445);
-    border-radius: 0.5em;   
+    border-radius: 1em;   
 }
 
 
@@ -65,7 +65,7 @@ button {
 input {
     display: block;
     
-    border-radius: 0.5em;
+    border-radius: 1em;
 
     width: 100%;
     height: 100%;
@@ -76,6 +76,7 @@ input {
 }
 input.display {
     text-align: end;
+    background-color: #cbdbb4;
 }
 input.removeBtn {
    
@@ -84,8 +85,11 @@ input.removeBtn {
 
 }
 input.operationBtn {
-    background-color: rgba(153, 51, 146, 0.658);
+    background-color: #eb4d6d;
 
+}
+input.numberBtn {
+    background-color: #cbdbb4;
 }
 
 input:hover{
