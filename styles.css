@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    font-size: 1.8em;
+    font-size: 1.4em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,11 +27,9 @@ body {
 
 }
 table {
-    padding: 0.3em;
     width: 20em;
     height: 20em;
     text-align: center;
-    border: 5px solid rgb(185, 210, 235);
     border-radius: 0.5em;
     background-color: rgba(89, 177, 232, 0.628);
     border: 2px solid white;
@@ -43,16 +41,17 @@ h1 {
     font-weight: normal;   
 }
 
- td, tr {
-    flex-direction: column;
-    align-items: center;
-    width: 1.5em;
-    height: 1.5em;
+tr, td {
     background-color: rgba(86, 106, 135, 0.498);
-    border: 3px solid rgba(191, 214, 237, 0.445);
-    border-radius: 1em;   
+    border-radius: 1.5em;  
+
 }
 
+ td {
+    height: 1.5em;
+    width: 25%;
+    border: 3px solid rgba(191, 214, 237, 0.445);
+}
 
 button {
     display: none;
@@ -63,19 +62,20 @@ button {
 }
 
 input {
+    font-size: 1.1em;
     display: block;
-    
     border-radius: 1em;
+    border: none;
 
     width: 100%;
     height: 100%;
-
-    padding-block: 0;
-    padding-inline: 0;
+    /* padding-block: 0;
+    padding-inline: 0; */
 
 }
 input.display {
     text-align: end;
+    font-size: 1.4em;
     background-color: #cbdbb4;
 }
 input.removeBtn {
