@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/ 1.5 Verdana, serif;
+  color: rgb(24, 24, 24);
+}
+body {
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 20em;
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #347679;
+  border-radius: 0.5em;
+  border: 3px solid rgba(201, 217, 233, 0.878);
+  color: beige;
+
+}
+table {
+  width: 20em;
+  height: 20em; 
+  text-align: center;
+  border-radius: 0.5em;
+  background-color: rgba(89, 177, 232, 0.628);
+  border: 2px solid white;
+  
+}
+h1 {
+  padding: 0.5em;
+  font-size: 2em;
+  font-weight: normal;   
+}
+
+tr, td {
+  background-color: rgba(86, 106, 135, 0.498);
+  border-radius: 1.5em;  
+
+}
+
+td {
+  height: 1.5em;
+  width: 25%;
+  border: 3px solid rgba(191, 214, 237, 0.445);
+}
+
+button {
+  display: none;
+}
+.display-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-size: 1.1em;
+  display: block;
+  border-radius: 1em;
+  border: none;
+  width: 100%;
+  height: 100%;
+  color: #003B46;
+
+}
+input.display {
+  text-align: end;
+  font-size: 1.4em;
+  background-color: #cbdbb4;
+}
+input.removeBtn {
+ 
+  background-color: #F7DB4F;
+
+
+}
+input.operationBtn {
+  background-color: #eb4d6d;
+
+}
+input.numberBtn {
+  background-color: #cbdbb4;
+}
+
+input:hover{
+  background-color: rgba(218, 223, 217, 0.507);
+}
