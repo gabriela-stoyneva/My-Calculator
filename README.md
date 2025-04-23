@@ -3,7 +3,7 @@ Simple calculator
 
 vite + react
 
-to run: on Terminal execute command - npm run dev - http://localhost:5173/
+to run on Browser: "client" folder Terminal execute command - npm run dev - http://localhost:5173/
 
 favicon: https://favicon.io/favicon-generator/
 
